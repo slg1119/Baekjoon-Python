@@ -1,0 +1,10 @@
+array = input()
+array = array.split()
+a = int(array[0])
+b = int(array[1])
+c = int(array[2])
+
+print ((a + b) % c)
+print (((a%c) + (b%c))%c)
+print ((a*b) %c)
+print (((a%c) * (b%c))%c)
